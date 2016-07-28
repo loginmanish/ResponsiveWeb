@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My responsive web design</title>
+    <meta charset="utf-8" />	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+    <script language="javascript" type="text/javascript">
+		jQuery(document).ready(function() {
+			jQuery('.menu_icon').click(function(e) {
+				jQuery('.mainHeader nav').toggleClass('show');
+				e.preventDefault();
+			});
+		});
+	</script>
+</head>
+
+<body class="body">
+
+	<header class="mainHeader">
+    	<img src="images/LogoMakr.png" />
+        <!--<a class="toggle-nav" href="#">&#9777;</a>-->
+        <div class="menu_icon"><a href="#"><img class="menu_img" src="images/menu.png" /></a></div>
+        <nav id="ddMenu">
+        <ul class="menu">
+        	<li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul></nav>
+    </header>
+	
+    <div class="mainContent">
+    	<div class="content">
+        	<article class="topcontent">
+            	<header>
+                	<h2><a href="#" title="First Post">First Post</a></h2>
+                </header>
+                <footer>
+                	<p class="post-info">This article was created on 21st Jun, 2016 by Manish Sharma</p>
+                </footer>
+                <content>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis consectetur sem, id luctus arcu accumsan eu. Nulla placerat mi nec semper elementum. Nullam accumsan fringilla dui, eget tristique odio viverra vitae. Morbi dapibus nulla odio, sit amet rutrum lectus malesuada viverra. Aliquam erat volutpat. Proin enim justo, euismod sit amet blandit eget, lacinia nec libero. Maecenas eget nibh diam.</p>
+
+<p>Praesent tincidunt consectetur justo, eu ornare tellus porta elementum. Praesent nunc metus, finibus ac tortor non, dictum dignissim orci. Nulla facilisi. Pellentesque eleifend, mi at gravida luctus, risus est finibus felis, gravida mollis metus turpis nec ex. Nulla ut ornare nisi, nec semper urna. Proin ac felis et risus tincidunt efficitur. Morbi sodales, massa sit amet dapibus molestie, eros ante egestas nibh, eu volutpat nunc libero eu elit. Nulla quis scelerisque lectus. Donec egestas lorem velit, a congue tortor dapibus sit amet. Pellentesque bibendum massa ac nibh blandit interdum. Phasellus eu volutpat nunc. Vivamus posuere, tortor vel faucibus posuere, justo dui feugiat ex, id sollicitudin ligula est a elit. Sed quis lectus mattis, vehicula purus at, tincidunt mi. Proin mattis ipsum mauris, quis egestas massa volutpat quis. Aenean sit amet nunc lectus. Vivamus rhoncus turpis lorem, consectetur aliquet nunc dictum eget.</p>
+                </content>
+            </article>
+            <article class="bottomcontent">
+            	<header>
+                	<h2><a href="#" title="Second Post">Second Post</a></h2>
+                </header>
+                <footer>
+                	<p class="post-info">This second post article was created on 21st Jun, 2016 by Manish Sharma</p>
+                </footer>
+                <content>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis consectetur sem, id luctus arcu accumsan eu. Nulla placerat mi nec semper elementum. Nullam accumsan fringilla dui, eget tristique odio viverra vitae. Morbi dapibus nulla odio, sit amet rutrum lectus malesuada viverra. Aliquam erat volutpat. Proin enim justo, euismod sit amet blandit eget, lacinia nec libero. Maecenas eget nibh diam.</p>
+
+<p>Praesent tincidunt consectetur justo, eu ornare tellus porta elementum. Praesent nunc metus, finibus ac tortor non, dictum dignissim orci. Nulla facilisi. Pellentesque eleifend, mi at gravida luctus, risus est finibus felis, gravida mollis metus turpis nec ex. Nulla ut ornare nisi, nec semper urna. Proin ac felis et risus tincidunt efficitur. Morbi sodales, massa sit amet dapibus molestie, eros ante egestas nibh, eu volutpat nunc libero eu elit. Nulla quis scelerisque lectus. Donec egestas lorem velit, a congue tortor dapibus sit amet. Pellentesque bibendum massa ac nibh blandit interdum. Phasellus eu volutpat nunc. Vivamus posuere, tortor vel faucibus posuere, justo dui feugiat ex, id sollicitudin ligula est a elit. Sed quis lectus mattis, vehicula purus at, tincidunt mi. Proin mattis ipsum mauris, quis egestas massa volutpat quis. Aenean sit amet nunc lectus. Vivamus rhoncus turpis lorem, consectetur aliquet nunc dictum eget.</p>
+                </content>
+            </article>
+        </div>
+    </div>
+    
+    <aside class="top-sidebar">
+    	<article>
+            <h2>Top Sidebar</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis consectetur sem, id luctus arcu accu...</p>
+        </article>
+    </aside>
+    
+    <aside class="middle-sidebar">
+    	<article>
+            <h2>Middle Sidebar</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis consectetur sem, id luctus arcu accu...</p>
+        </article>
+    </aside>
+    
+    <aside class="bottom-sidebar">
+    	<article>
+            <h2>Bottom Sidebar</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis consectetur sem, id luctus arcu accu...</p>
+        </article>
+    </aside>
+    
+    <footer class="mainFooter">
+    	<p>Copyright &copy; 2016 <a href="#" title="mysiite.com">mysite.com</a></p>
+    </footer>
+</body>
+
+</html>
